@@ -1,0 +1,48 @@
+
+/* that input which has an attribute of type text */
+
+input[type = "text"]{
+    color:rgb(20, 0, 90);
+    background-color: rgb(255, 132, 132);
+}
+
+input[type ="password"]{
+    background-color: pink;
+}
+
+
+a[href ="https://google.co.in"]{
+    color: red;
+}
+
+
+/* this * to all links in which there is the link of google */
+
+a[href *="google"]{
+    color: red;
+}
+
+
+/* this ^ means that every links that starts with https */
+a[href ^="https"]{
+    color: rgb(255, 47, 193);
+}
+
+/* this $ means that every links that ends with https */
+
+a[href $= ".com"]{
+    color: yellow;
+}
+
+
+.form_part form>input[type="text"]{
+    color: rgb(119, 0, 255);
+}
+
+
+
+
+
+
+
+
